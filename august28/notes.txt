@@ -1,0 +1,22 @@
+ENvironment
+    - all dependencies are within 
+
+1. Docker image (inactive)
+    - Transferrable 
+    - Inactive form
+    - Artefact
+    - Storable -> Docker Hub, Elastic Container Service (ECS), JFrog 
+
+2. Docker Container (Active)
+    - Not Transferrable
+    - Active form 
+    - Not an Artefact
+    - Not storable
+
+1. Create a Dockerfile
+
+Web servers
+1. Apache (Most POpular)
+2. Nginx
+
+daemon

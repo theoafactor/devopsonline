@@ -1,0 +1,34 @@
+1. Build Image
+    - Create a Dockerfile 
+    -> sudo docker build -t <username/name_of_image>:<tag> .
+
+2. Run Image as Container
+    -> sudo docker run -d -p xxxx:xxxx <name_of_image>:<tag>
+
+3. Delete Image
+    -> sudo docker rmi <name_of_image>:<tag>
+
+4. Stop a running container
+    -> sudo docker stop <container_id>
+
+5. Remove a container
+    -> sudo docker rm <container_id>
+    -> sudo docker rm --force <container_id>
+
+6. List images
+    -> sudo docker images 
+    -> sudo docker image ls
+
+7. List containers that are running (alive)
+    -> sudo docker ps
+
+8. List containers that are both alive and dead
+    -> sudo docker ps -a
+
+9. Login to Docker Hub 
+    - visit https://hub.docker.com
+    - create an account
+    -> sudo docker login 
+        - Provide your credentials
+
+    -> sudo docker push <username/name_of_image>:<tag>
