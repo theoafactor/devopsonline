@@ -1,0 +1,8 @@
+1. Deploy 2 containers 
+- Container A 
+- Container B
+
+1. Create a Network 
+2. Run the containers 
+3. Put the containers on the network 
+4. Test connections between the containers by using ping 
